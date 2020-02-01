@@ -1,7 +1,7 @@
 function rocket(game,startX, startY, velocityX, velocityY) {
 	var rocketArr = [];
-	assetToArray("./img/rocket/rocket", 15, rocketArr);
-	this.animation = new arrAnimation(rocketArr, .005, true, 3);
+	assetToArray("./img/rocket/Hit", 9, rocketArr);
+	this.animation = new arrAnimation(rocketArr, .05, true, 3);
     this.speed = velocityX;
 	this.ySpeed = velocityY;
     this.ctx = game.ctx;

@@ -3,6 +3,7 @@ downloadImage("./img/ninja/Ninja_Left", 10);
 downloadImage("./img/explosion/explosion", 32);
 downloadImage("./img/ninja/Ninja_Throw", 10);
 downloadImage("./img/rocket/rocket", 15);
+downloadImage("./img/rocket/Hit", 9);
 downloadImage("./img/ninja/Ninja_Run", 10);
 AM.queueDownload("./img/background0.png");
 

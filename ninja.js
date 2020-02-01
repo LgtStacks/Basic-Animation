@@ -2,7 +2,7 @@
 function ninja(game, spritesheetArrayIdle, spritesheetArrayRunRight, spritesheetArrayRunLeft) {
 	this.animationIdle = new arrAnimation(spritesheetArrayIdle, .1, true, .25, "Idle");
 	this.animationRunningRight = new arrAnimation(spritesheetArrayRunRight, .01, true, .25, "Running Right");
-	this.animationRunningLeft = new arrAnimation(spritesheetArrayRunLeft, .1, true, .25, "Running Left");
+	this.animationRunningLeft = new arrAnimation(spritesheetArrayRunLeft, .01, true, .25, "Running Left");
 	this.runRight = false;
 	this.runLeft = false;
 	this.throwing = false;
